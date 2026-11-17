@@ -1,5 +1,7 @@
 import { EMPTY_LIBRARY, type HistoryEntry, type LibraryRepository, type LibraryState, type SavedManga } from "./types";
 
+// Key keeps the site's original name on purpose: renaming it would make every
+// browser lose its saved favorites and reading history.
 const STORAGE_KEY = "inkmoon:library:v1";
 const MAX_HISTORY = 200;
 const MAX_READ_PER_SERIES = 3000;

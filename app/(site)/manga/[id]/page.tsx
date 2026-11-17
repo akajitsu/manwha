@@ -32,7 +32,7 @@ export async function generateMetadata(props: PageProps<"/manga/[id]">): Promise
   const m = res.data;
   return {
     title: m.title,
-    description: m.description.slice(0, 160) || `Read ${m.title} on Inkmoon.`,
+    description: m.description.slice(0, 160) || `Read ${m.title} on BeanZz.`,
     openGraph: {
       title: m.title,
       description: m.description.slice(0, 200),
@@ -64,8 +64,8 @@ async function MangaDetailView({ params }: { params: PageProps<"/manga/[id]">["p
       <div className="container-page pt-10">
         <EmptyState
           icon={<ShieldAlert className="size-5" aria-hidden />}
-          title="This title isn't available on Inkmoon"
-          description="Inkmoon only lists series rated safe or suggestive on MangaDex."
+          title="This title isn't available on BeanZz"
+          description="BeanZz only lists series rated safe or suggestive on MangaDex."
           action={<Link href="/comics" className="text-sm font-semibold text-accent hover:underline">Browse comics</Link>}
         />
       </div>

@@ -66,7 +66,7 @@ async function ReaderView({ params }: { params: PageProps<"/read/[chapterId]">["
   if (manga && !ALLOWED_CONTENT_RATINGS.has(manga.contentRating)) {
     return (
       <Notice title="Not available" backHref="/">
-        <ShieldAlert className="mx-auto mb-2 size-5" /> This title isn&apos;t available on Inkmoon.
+        <ShieldAlert className="mx-auto mb-2 size-5" /> This title isn&apos;t available on BeanZz.
       </Notice>
     );
   }

@@ -62,7 +62,7 @@ async function TabBar({ searchParams }: { searchParams: PageProps<"/popular">["s
       </nav>
       <p className="mt-3 flex items-center gap-1.5 text-xs text-subtle">
         <Info className="size-3.5" aria-hidden />
-        {current.description} Rankings come directly from MangaDex data — Inkmoon does not compute its own score.
+        {current.description} Rankings come directly from MangaDex data — BeanZz does not compute its own score.
       </p>
     </>
   );

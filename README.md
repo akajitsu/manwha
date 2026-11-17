@@ -1,4 +1,4 @@
-# Inkmoon
+# BeanZz
 
 A manhwa, manga and manhua discovery and reading site built on the official [MangaDex API](https://api.mangadex.org/docs/).
 
@@ -24,7 +24,7 @@ Checks: `npx tsc --noEmit`, `npm run lint`, `npm run build`.
 
 | Variable | Purpose |
 | --- | --- |
-| `MANGADEX_USER_AGENT` | User-Agent sent to MangaDex. Defaults to an honest Inkmoon identifier. Never spoof a browser UA. |
+| `MANGADEX_USER_AGENT` | User-Agent sent to MangaDex. Defaults to an honest BeanZz identifier. Never spoof a browser UA. |
 | `SITE_URL` | Public base URL, used to resolve Open Graph image URLs. |
 
 ## Routes

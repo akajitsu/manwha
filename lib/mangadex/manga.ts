@@ -9,7 +9,7 @@ import type { MdCollection, MdEntity, MdManga, MdStatisticsResponse, MdTag } fro
 import { MangaDexError, mdGet } from "./client";
 import { mapMangaDetail, mapMangaSummary, mapTag } from "./mappers";
 
-/** Content ratings shown in listings. Explicit titles are not offered on Inkmoon. */
+/** Content ratings shown in listings. Explicit titles are not offered on BeanZz. */
 export const LISTING_CONTENT_RATINGS = ["safe", "suggestive"] as const;
 export const ALLOWED_CONTENT_RATINGS = new Set<string>(LISTING_CONTENT_RATINGS);
 

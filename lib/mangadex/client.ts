@@ -19,7 +19,7 @@ export const MANGADEX_AT_HOME_REPORT = "https://api.mangadex.network/report";
 
 export const USER_AGENT =
   process.env.MANGADEX_USER_AGENT?.trim() ||
-  "Inkmoon/0.1 (self-hosted manhwa reader; built with Next.js)";
+  "BeanZz/0.1 (self-hosted manhwa reader; built with Next.js)";
 
 /** Minimum spacing between upstream requests from this server process. */
 const MIN_INTERVAL_MS = 230;

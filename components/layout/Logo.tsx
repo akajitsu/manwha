@@ -19,8 +19,8 @@ export function Logo() {
   return (
     <Link href="/" className="group flex items-center gap-2" aria-label={`${SITE.name} home`}>
       <LogoMark />
-      <span className="text-[17px] font-extrabold uppercase tracking-[0.14em] text-fg">
-        Ink<span className="text-accent">moon</span>
+      <span className="text-[19px] font-extrabold tracking-tight text-fg">
+        Bean<span className="text-accent">Zz</span>
       </span>
     </Link>
   );

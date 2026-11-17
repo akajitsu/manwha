@@ -11,7 +11,7 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted">{SITE.tagline}.</p>
-          <p className="mt-3 text-xs text-subtle">Free and ad-free. Inkmoon does not sell access to any content.</p>
+          <p className="mt-3 text-xs text-subtle">Free and ad-free. {SITE.name} does not sell access to any content.</p>
         </div>
 
         <nav aria-label="Footer" className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
@@ -29,7 +29,7 @@ export function Footer() {
             <a href="https://mangadex.org" target="_blank" rel="noopener noreferrer" className="font-medium text-accent hover:underline">
               MangaDex
             </a>{" "}
-            through its public API. Inkmoon is an independent reader and is not affiliated with MangaDex.
+            through its public API. {SITE.name} is an independent reader and is not affiliated with MangaDex.
           </p>
           <p className="mt-2">
             Comics belong to their respective authors and publishers. Fan translations are the work of the scanlation groups

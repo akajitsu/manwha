@@ -11,6 +11,7 @@ export interface ReaderPrefs {
   width: ReaderWidth;
 }
 
+// Original key kept on purpose so existing reader settings survive the rename.
 const KEY = "inkmoon:reader:v1";
 const listeners = new Set<() => void>();
 let cached: ReaderPrefs | null = null;

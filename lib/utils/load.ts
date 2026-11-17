@@ -17,7 +17,7 @@ export async function load<T>(loader: () => Promise<T>): Promise<LoadResult<T>> 
     return { ok: true, data: await loader() };
   } catch (error) {
     await connection();
-    console.error("[inkmoon] data load failed:", error instanceof Error ? error.message : error);
+    console.error("[beanzz] data load failed:", error instanceof Error ? error.message : error);
     return { ok: false, error };
   }
 }

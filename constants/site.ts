@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Inkmoon",
+  name: "BeanZz",
   tagline: "Read manhwa, manga and manhua — powered by MangaDex",
   description:
     "Discover and read manhwa, manga and manhua. Browse the latest English chapter releases, popular series and every genre, with a reader built for vertical scrolling.",
@@ -98,7 +98,7 @@ export const STATUS_OPTIONS = [
 
 /**
  * Catalog sort options mapped onto MangaDex `order[...]` parameters.
- * "follows" and "rating" are MangaDex community data, not an Inkmoon algorithm.
+ * "follows" and "rating" are MangaDex community data, not a BeanZz algorithm.
  */
 export const SORT_OPTIONS = [
   { value: "latest", label: "Latest update", order: { latestUploadedChapter: "desc" } },
